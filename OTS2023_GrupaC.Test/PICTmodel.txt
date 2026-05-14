@@ -1,0 +1,8 @@
+﻿ Nectar:1,2,5,10,15,30,45
+ honeyMade:1,2,3,4,5,9,15,30;
+ Bee:yes,no
+ Rating = Good,Average,Poor
+ if [honeyMade] > 11 then [Rating] = "Good";
+ if [Nectar] >= 10 and [Bee] = "yes" then [Rating] = "Average";
+ if [Nectar] >= 10 and [Bee] = "yes" and then [Rating] = "Average";
+ else [Rating] = "Poor";
